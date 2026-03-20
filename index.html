@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقعي الشخصي</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, sans-serif; }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+    }
+
+    .container {
+      background: rgba(0,0,0,0.6);
+      padding: 40px 30px;
+      border-radius: 20px;
+      text-align: center;
+      max-width: 500px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+
+    .container:hover {
+      transform: translateY(-5px);
+    }
+
+    h1 {
+      font-size: 2.8em;
+      color: #fff;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #ddd;
+      margin-bottom: 25px;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 30px;
+      padding: 0;
+    }
+
+    ul li {
+      display: inline-block;
+      background: linear-gradient(45deg, #ff6f91, #ff9671);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 50px;
+      margin: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    ul li:hover {
+      transform: scale(1.1);
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 15px 35px;
+      background: linear-gradient(45deg, #42e695, #3bb2b8);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 1.1em;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: 0.4s;
+    }
+
+    a.button:hover {
+      background: linear-gradient(45deg, #3bb2b8, #42e695);
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2.2em; }
+      a.button { padding: 12px 25px; font-size: 1em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>مرحبا، أنا باسم الخليدي</h1>
+    <p>مبرمج ومحب لتعلم كل جديد في تصميم وتطوير الويب</p>
+    <b>!أهلاً بك في موقعي الشخصي</b>
+    
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git & GitHub</li>
+    </ul>
+    
+    <a class="button" href="https://wa.me/967774714284" target="_blank">تواصل معي</a>
+  </div>
+</body>
+</html>
